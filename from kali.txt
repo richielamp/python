@@ -1,0 +1,17 @@
+created fuzz 
+
+immport  request
+import sys
+
+for word in sys.stdin:
+	res =request.get(url=f"https://randomuser.me/{word}
+	print(res)
+	data = res.json()
+	print(data)
+
+added fuzz.py and small.txt to folder
+
+installed gedit in kali
+
+editted small.txt with code
+
